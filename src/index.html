@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="timeline">
+    <div class="post text-post">
+        <p>Это пример текстового поста.</p>
+        <p>Координаты: 55.7558, 37.6173</p>
+    </div>
+    <div class="post audio-post">
+        <audio controls>
+            <source src="./public/media/audio.mp3" type="audio/mp3">
+        </audio>
+        <p>Координаты: 55.7558, 37.6173</p>
+    </div>
+    <div class="post video-post">
+        <video controls width="320" height="240">
+            <source src="./public/media/video.mp4" type="video/mp4">
+        </video>
+        <p>Координаты: 55.7558, 37.6173</p>
+    </div>
+  </div>
+  <div id="input-area">
+      <input type="text" id="text-input" placeholder="Введите текст и нажмите Enter...">
+  </div>
+
+  <!-- Модальное окно -->
+  <div id="coordinatesModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          Что-то пошло не так. <br>
+          К сожалению, нам не удалось определить ваше местоположение. Пожалуйста, дайте разрешение на использование геолокации, либо введите координаты вручную. <br>
+          <br>
+          Широта и долгота через запятую.
+        </p>
+        <input type="text" id="coordinatesInput" placeholder="Широта, долгота">
+        <div class="modal-buttons">
+            <button id="cancelCoordinates">Отмена</button>
+            <button id="okCoordinates">OK</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
