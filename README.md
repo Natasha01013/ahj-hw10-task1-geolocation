@@ -1,7 +1,7 @@
 # CI Test
 [![Build status](https://ci.appveyor.com/api/projects/status/9ji0ogm5b3vkc08a?svg=true)](https://ci.appveyor.com/project/Natasha01013/ahj-hw10-task1-geolocation)
 
-[Github Pages]()
+[Github Pages](https://natasha01013.github.io/ahj-hw10-task1-geolocation/)
 
 
 # Домашнее задание к занятию "10. Geolocation, Notification, Media"  
